@@ -40,7 +40,9 @@ width: 1600px;
 margin: auto;
 }
 /* Page-header */
-
+header {
+    border-bottom: 1px solid #ECECEC;
+}
 /* Main */
 main {
     
@@ -153,7 +155,10 @@ color:var(--accent-color);
 }
 
 /* Section */
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .section-title {
     padding-bottom: 50px;
     font-weight: 700;
@@ -165,11 +170,6 @@ color:var(--accent-color);
 }
 
 /* Особенности */
-
-.features {
-    margin-top: 94px;
-    margin-bottom: 94px;
-}
 
 .visually-hidden {
     position: absolute;
@@ -215,7 +215,6 @@ color:var(--accent-color);
 /* Work examples */
 .example-list {
     display: flex;
-    margin-bottom: 94px;
 }
 
 .example {
@@ -229,8 +228,6 @@ color:var(--accent-color);
 /* Наша команда */
 .team {
     background-color: var(--second-background-color);
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .team-list {
@@ -298,9 +295,7 @@ color: #FFFFFF;
 .portfolio-nav {
     display: flex;
     justify-content: center;
-    margin-top: 94px;
-    margin-bottom: 50px;
-    
+    padding-bottom: 20px;
 }
 .portfolio-nav>li {
     margin-right: 8px;
